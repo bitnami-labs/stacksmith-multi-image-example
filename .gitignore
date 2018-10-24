@@ -1,0 +1,3 @@
+# ignore packaged helm chart
+/helm-charts-ui.tgz
+

@@ -1,0 +1,4 @@
+apiVersion: v1
+description: Application chart created with Bitnami's Stacksmith
+name: my-app
+version: 0.1.0

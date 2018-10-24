@@ -1,0 +1,7 @@
+multi-image-api:
+  nameOverride: "api"
+
+multi-image-ui:
+  nameOverride: "ui"
+  api:
+    chartName: "api"

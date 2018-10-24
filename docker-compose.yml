@@ -1,0 +1,28 @@
+version: '2.1'
+services:
+  api:
+    build:
+      context: images/api
+    environment:
+      - DATABASE_HOST=mysql
+      - DATABASE_USER=user
+      - DATABASE_PASSWORD=password
+      - DATABASE_NAME=api
+    depends_on:
+      - mysql
+  ui:
+    build:
+      context: images/ui
+    environment:
+      - API_ENDPOINT=api:8080
+    depends_on:
+      - api
+    ports:
+      - 8080:8080
+  mysql:
+    image: bitnami/mysql:5.7
+    environment:
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=password
+      - MYSQL_ROOT_PASSWORD=password2
+      - MYSQL_DATABASE=api
