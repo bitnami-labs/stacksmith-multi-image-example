@@ -29,8 +29,9 @@ A pre-built file can also be downloaded from [releases](../../../../releases) fo
 9. Create a new application and select the _Generic application with API reference_ stack template.
 10. Specify `multi-image-ui` as the application name and `1.0.0` as application version
 11. Select the Kubernetes target, deselecting any other targets
-12. Upload the [app-ui.zip_](../../../../releases/download/v1.0.0/app-ui.zip) file (which can be found in [releases](../../../../releases) for the project.
-13. Upload the [_build.sh_](stacksmith-scripts/build.sh) script from the [stacksmith-scripts/_](stacksmith-scripts/) folder.
-14. Upload the [_boot.sh_](stacksmith-scripts/boot.sh) script from the [stacksmith-scripts/_](stacksmith-scripts/) folder.
-15. Upload the [_run.sh_](stacksmith-scripts/run.sh) script from the [stacksmith-scripts/_](stacksmith-scripts/) folder.
-16. Click the <kbd>Create</kbd> button.
+12. Upload the [_app-ui.zip_](../../../../releases/download/v1.0.0/app-ui.zip) file in the _Appliction scripts_ section (it can be found in [releases](../../../../releases) for the project.
+13. Upload the [_nginx.conf.template_](nginx.conf.template) file in the _Appliction scripts_ section.
+14. Upload the [_build.sh_](stacksmith-scripts/build.sh) script from the [_stacksmith-scripts/_](stacksmith-scripts/) folder.
+15. Upload the [_boot.sh_](stacksmith-scripts/boot.sh) script from the [_stacksmith-scripts/_](stacksmith-scripts/) folder.
+16. Upload the [_run.sh_](stacksmith-scripts/run.sh) script from the [_stacksmith-scripts/_](stacksmith-scripts/) folder.
+17. Click the <kbd>Create</kbd> button.

@@ -25,8 +25,8 @@ A pre-built file can also be downloaded from [releases](../../../../releases) fo
 2. Create a new application and select the _Generic application with DB (MySQL)_ stack template.
 3. Specify `multi-image-api` as the application name and `1.0.0` as application version
 4. Select the Kubernetes target, deselecting any other targets
-5. Upload the [app-api.zip_](../../../../releases/download/v1.0.0/app-api.zip) file (which can be found in [releases](../../../../releases) for the project.
-6. Upload the [_build.sh_](stacksmith-scripts/build.sh) script from the [stacksmith-scripts/_](stacksmith-scripts/) folder.
-7. Upload the [_boot.sh_](stacksmith-scripts/boot.sh) script from the [stacksmith-scripts/_](stacksmith-scripts/) folder.
-8. Upload the [_run.sh_](stacksmith-scripts/run.sh) script from the [stacksmith-scripts/_](stacksmith-scripts/) folder.
+5. Upload the [_app-api.zip_](../../../../releases/download/v1.0.0/app-ui.zip) file in the _Appliction scripts_ section (it can be found in [releases](../../../../releases) for the project.
+6. Upload the [_build.sh_](stacksmith-scripts/build.sh) script from the [_stacksmith-scripts/_](stacksmith-scripts/) folder.
+7. Upload the [_boot.sh_](stacksmith-scripts/boot.sh) script from the [_stacksmith-scripts/_](stacksmith-scripts/) folder.
+8. Upload the [_run.sh_](stacksmith-scripts/run.sh) script from the [_stacksmith-scripts/_](stacksmith-scripts/) folder.
 9. Click the <kbd>Create</kbd> button. 

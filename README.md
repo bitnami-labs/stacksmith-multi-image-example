@@ -4,7 +4,7 @@ This is an example documenting how to create a multi-tier application with Stack
 
 # Images
 
-The application consists of two images - UI and API.
+The application consists of two images - UI and API. The first image is a single page HTML website, meant which for a real world application would be a single page application built using tools such as React & Redux and webpack. The second one provides an API that allows persisting data.
 
 ## UI
 
